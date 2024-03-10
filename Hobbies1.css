@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('saturn.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.nav {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    background-color: rgba(98, 98, 98, 0.7); /* Transparent black with 70% opacity */
+    z-index: 100;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #eee;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 10px;
+    background-color: rgb(98, 98, 98);
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within each section */
+}
+
+/* Add padding to each section */
+.Sports{
+    padding: 20px; /* Adjust the value as needed */
+    background-color: rgb(98, 98, 98, 0.8); /* Transparent black with 50% opacity */
+    color: white;
+    margin: 30px auto;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width:950px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light box shadow effect */
+}
+
+.Reading{
+    padding: 20px; /* Adjust the value as needed */
+    background-color: rgb(98, 98, 98, 0.8); /* Transparent black with 50% opacity */
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width:950px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light box shadow effect */
+}
+
+.Multimedia{
+    padding: 20px; /* Adjust the value as needed */
+    background-color: rgb(98, 98, 98, 0.8); /* Transparent black with 50% opacity */
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width:950px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light box shadow effect */
+ }
+ 
+
+ .Writing{
+    padding: 20px; /* Adjust the value as needed */
+    background-color: rgb(98, 98, 98, 0.8); /* Transparent black with 50% opacity */
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width:950px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light box shadow effect */
+ }
+
+ .h1 h1 {
+    color: white;
+    font-size: 75px;
+}
+

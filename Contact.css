@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('saturn.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.nav {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    background-color: rgba(98, 98, 98, 0.7); /* Transparent black with 70% opacity */
+    z-index: 100;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #eee;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 10px;
+    background-color: rgb(98, 98, 98);
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within each section */
+}
+
+.profile-image {
+    width: 350px; /* Set the width and height to create a perfect circle */
+    height: 350px;
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any parts of the image that exceed the circular border */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 30px auto 20px auto; /* Center the container horizontally */
+}
+
+.profile-image img {
+    width: 100%; /* Make the image fill the circular container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.social-links {
+    text-align: center;
+    margin: 30px 0 auto; /* Center horizontally and add margin */
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.social-links img {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px; /* Adjust the size as needed */
+    margin: 0 10px; /* Add space between the icons */
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px auto 0 auto; /* Top margin set to 50px */
+    display: block;
+    width: fit-content;
+}
+
+.message-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.message-button button {
+    padding: 10px 20px;
+    font-size: 18px; /* Updated font size */
+    background-color: rgb(1, 1, 1);
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.message-button button:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+
+
+
+
+
+
+
+

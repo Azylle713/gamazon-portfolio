@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-color: linear-gradient(to bottom, black, white);
+    --main-color: hsl(0, 0%, 100%);
+    --text-color: black;
+    --h1-font: 5.6rem;
+    --h2-font: 3.7rem;
+    --p-font: 1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--p-font);
+}
+
+
+.signup {
+    color: var(--bg-color);
+}
+
+.back-btn {
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.container {
+    margin-top: -50px;
+    border-radius: 30px;
+}
+
+.card-header {
+    background-color: var(--main-color);
+}
+
+.card-body {
+    background-color: var(--main-color);
+}
+
+.card-title {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.btn-block {
+    background-color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+    margin-top: 30px;
+}
+
+.btn-block:hover {
+    background-color: #36393f;
+    border: 2px solid var(--bg-color);
+}
+
+.btn-outline-primary {
+    background-color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: #36393f;
+    border: 2px solid var(--bg-color);
+    color: white;
+}
+
+.already-signed-up {
+    margin-top: 20px;
+}
+
+.custom-btn {
+    background-color: rgb(49, 49, 255);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 7px; /* Adjust the border radius as needed */
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+

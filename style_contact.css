@@ -1,0 +1,113 @@
+body {
+    background-color: #44423e;
+    font-family: sans-serif;
+    margin: 0; /* Remove default body margin */
+    overflow-x: hidden; /* Hide horizontal scroll */
+}
+.mb-4 {
+    margin-top: 100px; /* Adjust the value as needed */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    width: 1000px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light box shadow effect */
+}
+
+
+.text-center.text-md-left .btn.btn-primary {
+    background-color: #11c160;
+    border: 1px solid #11c160;
+    color: #ffffff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000; /* Text color */
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+/* Button inside the modal */
+.modal button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #11c160; /* White background color */
+    color: #ffffff; /* Green text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.modal p {
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1415px) and (max-height: 768px) {
+    body {
+        margin-top: 0;
+    }
+
+    .mb-4 {
+        margin-top: 40px;
+    }
+
+    .modal {
+        top: 50%;
+    }
+
+    .modal p {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin-top: 0;
+    }
+
+    .mb-4 {
+        margin-top: 50px;
+    }
+
+    .modal {
+        top: 50%;
+    }
+
+    .modal p {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin-top: 0;
+    }
+
+    .mb-4 {
+        margin-top: 50px;
+    }
+
+    .modal {
+        top: 50%;
+    }
+
+    .modal p {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+}
+
+
